@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.leo.functionalstoragecolor.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "refmap": "functionalstoragecolor.refmap.json",
+    "mixins": [
+        "StorageUpgradeItemMixin"
+    ],
+    "client": [
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
